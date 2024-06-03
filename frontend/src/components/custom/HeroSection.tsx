@@ -30,7 +30,7 @@ export function HeroSection({ data }: Readonly<HeroSectionProps>) {
 
   const { image, heading, subHeading, link } = data;
   const imageUrl = "http://localhost:1337" + image.url;
-  
+
   return (
     <header className="relative h-[600px] overflow-hidden">
       {image && (
